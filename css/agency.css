@@ -105,6 +105,10 @@ body {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #fed136; }
+  #mainNav .profile_logo{
+    width: 150px;
+    height:130px;
+  }
 
 @media (min-width: 992px) {
   #mainNav {
