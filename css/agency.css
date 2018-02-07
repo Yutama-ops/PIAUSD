@@ -496,6 +496,9 @@ footer {
     text-transform: none;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
+.social_buttons{
+  margin-left: -380px;
+}
 ul.social-buttons {
   margin-bottom: 0; }
   ul.social-buttons li a {
