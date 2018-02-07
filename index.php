@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <?php
-    include 'conn.php';
-    include 'aboutUs.php';
-    include 'event.php';
-    include 'member.php';
-    include 'contactUs.php';
+    include './conection/conn.php';
+    include './nav/aboutUs.php';
+    include './nav/event.php';
+    include './nav/member.php';
+    include './nav/contactUs.php';
 ?>
 <html lang="en">
 
