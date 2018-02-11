@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-    // include './conection/conn.php';
+    //include './conection/conn.php';
     include './nav/aboutUs.php';
     include './nav/event.php';
     include './nav/member.php';
@@ -18,7 +18,7 @@
     <title>Agency - Start Bootstrap Theme</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -33,7 +33,6 @@
   </head>
 
   <body id="page-top">
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
@@ -48,7 +47,7 @@
               <a class="nav-link" data-toggle="modal" href="#aboutusModal1">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="modal" href="#eventModal1">Event</a>
+              <a class="nav-link" data-toggle="modal" href="#eventModal1">Our events</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" data-toggle="modal" href="#membershipModal1">Membership</a>

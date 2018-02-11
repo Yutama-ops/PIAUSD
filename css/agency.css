@@ -81,15 +81,16 @@ body {
   -webkit-tap-highlight-color: #fed136; }
 
 #mainNav {
-  background-color: #212529; }
+  background: rgba(0, 0, 0, 0.5);
+  }
   #mainNav .navbar-toggler {
     font-size: 12px;
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: white;
+    color: black;
     border: 0;
-    background-color: #fed136;
+    background-color: #ffffff;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
     color: #fed136;
@@ -98,46 +99,45 @@ body {
       color: #fec503; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
-    font-weight: 400;
+    font-weight: 700;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: white;
+    color: #ffffff;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #fed136; }
-  #mainNav .profile_logo{
-    width: 150px;
-    height:130px;
-  }
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
-    border: none;
-    background-color: transparent; }
-    #mainNav .navbar-brand {
-      font-size: 1.75em;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      transition: all 0.3s; }
+    padding-top: 30px;
+    -webkit-transition: padding-top 0.3s;
+    -moz-transition: padding-top 0.3s;
+    transition: padding-top 0.3s;
+    background: rgba(0, 0, 0, 0.5); }
+   #mainNav .profile_logo{
+    position: absolute;
+    margin-top: -55px;
+    width: 200px;
+    height:180px;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    transition: width 0.3s;
+    z-index: 9999; }
     #mainNav .navbar-nav .nav-item .nav-link {
-      padding: 1.1em 1em !important; }
+      padding: 25px 30px 15px!important;}
     #mainNav.navbar-shrink {
       padding-top: 0;
-      padding-bottom: 0;
-      background-color: #212529; }
-      #mainNav.navbar-shrink .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0; } }
+      }
+    #mainNav.navbar-shrink .profile_logo {
+      margin-top: -20px;
+      width: 130px;
+      height: 110px; }}
 
 header.masthead {
   text-align: center;
   color: white;
   background-image: url("../img/team/background.png");
+  opacity: 0.9;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
