@@ -83,8 +83,8 @@
           </div>
         </div>
 
-          <div class="intro-lead-in">Welcome To Our Studio!</div>
-          <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
+          <div class="intro-lead-in"></div>
+          <div class="intro-heading text-uppercase"></div>
           <br><br>
         </div>
       </div>
