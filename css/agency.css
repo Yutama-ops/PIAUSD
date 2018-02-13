@@ -241,14 +241,13 @@ header.masthead {
 .portfolio-modal {
   padding-right: 0px !important; }
   .portfolio-modal .modal-dialog {
-    margin: 1rem;
+    margin: 3rem;
     max-width: 100vw; }
   .portfolio-modal .modal-content {
     padding: 100px 0;
     text-align: center; }
     .portfolio-modal .modal-content h2 {
-      font-size: 3em;
-      margin-bottom: 15px; }
+      font-size: 2em; }
     .portfolio-modal .modal-content p {
       margin-bottom: 30px; }
     .portfolio-modal .modal-content p.item-intro {
@@ -258,8 +257,6 @@ header.masthead {
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     .portfolio-modal .modal-content ul.list-inline {
       margin-top: 0;
-      margin-bottom: 30px; }
-    .portfolio-modal .modal-content img {
       margin-bottom: 30px; }
     .portfolio-modal .modal-content button {
       cursor: pointer; }
@@ -294,6 +291,51 @@ header.masthead {
         -ms-transform: rotate(90deg);
         transform: rotate(90deg);
         background-color: #212529; }
+        .portfolio-modal .modal-content img{
+          width: 150px;
+          height: 100px;
+        }
+  #progress_bar{
+    width: 1100px;
+    height: 250px;
+  }
+  #progress_button_1{
+    position: fixed;
+    width: 150px;
+    height: 100px;
+    top: 50%;
+    left: 70px;
+    margin-top: -46px;}
+  #progress_button_2{
+    position: fixed;
+    width: 150px;
+    height: 100px;
+    top: 50%;
+    left: 335px;
+    margin-top: -46px; }
+  #progress_button_3{
+    position: fixed;
+    width: 150px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top: -46px;
+    margin-left: -65px;}
+  #progress_button_4{
+    position: fixed;
+    width: 150px;
+    height: 100px;
+    top: 50%;
+    right: 335px;
+    margin-top: -46px;
+    margin-left: -65px;}
+  #progress_button_5{
+    position: fixed;
+    width: 150px;
+    height: 100px;
+    top: 50%;
+    right: 62px;
+    margin-top: -46px;}
 
 .timeline {
   position: relative;
