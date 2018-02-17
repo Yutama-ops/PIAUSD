@@ -153,7 +153,7 @@
     <script src="js/contact_me.js"></script>
 
     <!-- Our events form JavaScript -->
-    <script src="js/fade_in_fade_out.js">
+    <script src="js/fade_in_fade_out.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
