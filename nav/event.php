@@ -13,40 +13,41 @@
           </div>
           <div class="bar">
             <img id="progress_bar" src="./img/events/progress.png">
-            <a href="#"><img class="progress_button" id="progress_button_1" src="img/events/progress_button.png"></a>
-            <a href="#"><img class="progress_button" id="progress_button_2" src="img/events/progress_button.png"></a>
-            <a href="#"><img class="progress_button" id="progress_button_3" src="img/events/progress_button.png"></a>
-            <a href="#"><img class="progress_button" id="progress_button_4" src="img/events/progress_button.png"></a>
-            <a href="#"><img class="progress_button" id="progress_button_5" src="img/events/progress_button.png"></a>
-            <a href="#"><img class="progress_button" id="progress_button_6" src="img/events/progress_button.png"></a>
-            <a href="#"><img class="progress_button" id="progress_button_7" src="img/events/progress_button.png"></a>
-            <a href="#"><img class="progress_button" id="progress_button_8" src="img/events/progress_button.png"></a>
+            <img onClick="show_event_decription(this.id)" class="progress_button" id="1" src="img/events/progress_button.png">
+            <img onClick="show_event_decription(this.id)" class="progress_button" id="2" src="img/events/progress_button.png">
+            <img onClick="show_event_decription(this.id)" class="progress_button" id="3" src="img/events/progress_button.png">
+            <img onClick="show_event_decription(this.id)" class="progress_button" id="4" src="img/events/progress_button.png">
+            <img onClick="show_event_decription(this.id)" class="progress_button" id="5" src="img/events/progress_button.png">
+            <img onClick="show_event_decription(this.id)" class="progress_button" id="6" src="img/events/progress_button.png">
+            <img onClick="show_event_decription(this.id)" class="progress_button" id="7" src="img/events/progress_button.png">
+            <img onClick="show_event_decription(this.id)" class="progress_button" id="8" src="img/events/progress_button.png">
         </div>
+        <div class="events">
         <!--Content of event 1-->
-        <div id="event_1" style="display:none">Event 1</div><br>
-        <div id="event_1_desc" style="display:none">Description of event 1</div>
+        <h3 id="event_1">Event 1</h3>
+        <p id="event_1_desc">Description of event 1</p>
         <!--Content of event 2-->
-        <div id="event_2" style="display:none">Event 2</div><br>
-        <div id="event_2_desc" style="display:none">Description of event 2</div>
+        <h3 id="event_2">Event 2</h3>
+        <p id="event_2_desc">Description of event 2</p>
         <!--Content of event 3-->
-        <div id="event_3" style="display:none">Event 3</div><br>
-        <div id="event_3_desc" style="display:none">Description of event 3</div>
+        <h3 id="event_3">Event 3</h3>
+        <p id="event_3_desc">Description of event 3</p>
         <!--Content of event 4-->
-        <div id="event_4" style="display:none">Event 4</div><br>
-        <div id="event_4_desc" style="display:none">Description of event 4</div>
+        <h3 id="event_4">Event 4</h3>
+        <p id="event_4_desc">Description of event 4</p>
         <!--Content of event 5-->
-        <div id="event_5" style="display:none">Event 5</div><br>
-        <div id="event_5_desc" style="display:none">Description of event 5</div>
+        <h3 id="event_5">Event 5</h3>
+        <p id="event_5_desc">Description of event 5</p>
         <!--Content of event 6-->
-        <div id="event_6" style="display:none">Event 6</div><br>
-        <div id="event_6_desc" style="display:none">Description of event 6</div>
+        <h3 id="event_6">Event 6</h3>
+        <p id="event_6_desc">Description of event 6</p>
         <!--Content of event 7-->
-        <div id="event_7" style="display:none">Event 7</div><br>
-        <div id="event_7_desc" style="display:none">Description of event 7</div>
+        <h3 id="event_7">Event 7</h3>
+        <p id="event_7_desc">Description of event 7</p>
         <!--Content of event 8-->
-        <div id="event_8" style="display:none">Event 8</div><br>
-        <div id="event_8_desc" style="display:none">Description of event 8</div>
-
+        <h3 id="event_8">Event 8</h3>
+        <p id="event_8_desc">Description of event 8</p>
+      </div>
       </div>
     </div>
   </div>

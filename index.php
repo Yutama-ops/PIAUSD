@@ -30,6 +30,9 @@
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet">
 
+    <!-- Custom styles for this template -->
+    <link href="css/events.css" rel="stylesheet">
+
   </head>
 
   <body id="page-top">
