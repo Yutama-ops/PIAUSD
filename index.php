@@ -152,6 +152,9 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
+    <!-- Our events form JavaScript -->
+    <script src="js/fade_in_fade_out.js">
+
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
 
