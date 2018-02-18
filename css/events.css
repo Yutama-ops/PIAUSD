@@ -40,17 +40,13 @@
     -moz-transition: padding-left 0.6s;
     transition: padding-left 0.6s;}
 
-.events{
-  position: relative;
-
-}
 .events h3{
-  position: absolute;
+  position: relative;
   display: none;
   font-size: 16px;
   font-weight: 900;
   font-style: italic;
-  margin-bottom: 75px;
+  margin-top: 50px;
   padding-left: 15px;
   text-transform: none;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -58,6 +54,6 @@
 .events p{
   margin-top: 30px;
   padding-left: 15px;
-  position: absolute;
+  position: relative;
   display: none;
 }

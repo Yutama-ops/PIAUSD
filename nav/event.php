@@ -41,28 +41,28 @@
 
         <div class="events">
         <!--Content of event 1-->
-        <h3 id="event_1">Event 1</h3>
-        <p id="event_1_desc">Description of event 1</p>
+        <h3 id="event_1" style="display:block;">Ngerumpi x Lost in USyd (9-10 March 2018)</h3>
+        <p id="event_1_desc" style="display:block;">Description of event 1</p>
         <!--Content of event 2-->
-        <h3 id="event_2">Event 2</h3>
+        <h3 id="event_2">Beach BBQ (17 March 2018)</h3>
         <p id="event_2_desc">Description of event 2</p>
         <!--Content of event 3-->
-        <h3 id="event_3">Event 3</h3>
+        <h3 id="event_3">AFF (29 March 2018)</h3>
         <p id="event_3_desc">Description of event 3</p>
         <!--Content of event 4-->
-        <h3 id="event_4">Event 4</h3>
+        <h3 id="event_4">CAMP (Semester break)</h3>
         <p id="event_4_desc">Description of event 4</p>
         <!--Content of event 5-->
-        <h3 id="event_5">Event 5</h3>
+        <h3 id="event_5">MOCA & Circular Quay Trip (21 April 2018)</h3>
         <p id="event_5_desc">Description of event 5</p>
         <!--Content of event 6-->
-        <h3 id="event_6">Event 6</h3>
+        <h3 id="event_6">Paintball (5 May 2018)</h3>
         <p id="event_6_desc">Description of event 6</p>
         <!--Content of event 7-->
-        <h3 id="event_7">Event 7</h3>
+        <h3 id="event_7">Game Night (18 May 2018)</h3>
         <p id="event_7_desc">Description of event 7</p>
         <!--Content of event 8-->
-        <h3 id="event_8">Event 8</h3>
+        <h3 id="event_8">End of Semester Dinner (2 June 2018))</h3>
         <p id="event_8_desc">Description of event 8</p>
       </div>
       </div>
