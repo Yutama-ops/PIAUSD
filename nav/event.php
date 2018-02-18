@@ -11,17 +11,34 @@
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Our events</h2>
           </div>
-          <div class="bar">
-            <img id="progress_bar" src="./img/events/progress.png">
-            <img onClick="show_event_decription(this.id)" class="progress_button" id="1" src="img/events/progress_button.png">
-            <img onClick="show_event_decription(this.id)" class="progress_button" id="2" src="img/events/progress_button.png">
-            <img onClick="show_event_decription(this.id)" class="progress_button" id="3" src="img/events/progress_button.png">
-            <img onClick="show_event_decription(this.id)" class="progress_button" id="4" src="img/events/progress_button.png">
-            <img onClick="show_event_decription(this.id)" class="progress_button" id="5" src="img/events/progress_button.png">
-            <img onClick="show_event_decription(this.id)" class="progress_button" id="6" src="img/events/progress_button.png">
-            <img onClick="show_event_decription(this.id)" class="progress_button" id="7" src="img/events/progress_button.png">
-            <img onClick="show_event_decription(this.id)" class="progress_button" id="8" src="img/events/progress_button.png">
+
+        <!--car image-->
+        <div id="container">
+        <div id="animate"></div>
         </div>
+
+        <div class="progress_bar">
+          <p id="week_1">Week 1</p>
+          <p id="week_2">Week 2</p>
+          <p id="week_3">Week 3</p>
+          <p id="week_4">Week 4</p>
+          <p id="week_5">Week 5</p>
+          <p id="week_6">Week 6</p>
+          <p id="week_7">Week 7</p>
+          <p id="week_8">Week 8</p>
+          <img src="img/events/progress.png">
+        </div>
+          <div class="button">
+            <img onClick="show_event_decription(this.id);moveCar(this.id);" id="1" src="img/events/progress_button.png">
+            <img onClick="show_event_decription(this.id);moveCar(this.id);" id="2" src="img/events/progress_button.png">
+            <img onClick="show_event_decription(this.id);moveCar(this.id);" id="3" src="img/events/progress_button.png">
+            <img onClick="show_event_decription(this.id);moveCar(this.id);" id="4" src="img/events/progress_button.png">
+            <img onClick="show_event_decription(this.id);moveCar(this.id);" id="5" src="img/events/progress_button.png">
+            <img onClick="show_event_decription(this.id);moveCar(this.id);" id="6" src="img/events/progress_button.png">
+            <img onClick="show_event_decription(this.id);moveCar(this.id);" id="7" src="img/events/progress_button.png">
+            <img onClick="show_event_decription(this.id);moveCar(this.id);" id="8" src="img/events/progress_button.png">
+          </div>
+
         <div class="events">
         <!--Content of event 1-->
         <h3 id="event_1">Event 1</h3>
