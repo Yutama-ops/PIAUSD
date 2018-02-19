@@ -72,14 +72,14 @@
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
+                <a href="https://www.youtube.com/channel/UC-kIdxk-grddXFhZhoBHgdQ">
+                  <i class="fa fa-youtube"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.facebook.com/groups/ppiauniofsydney">
                   <i class="fa fa-facebook"></i>
                 </a>
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
+                <a href="https://www.instagram.com/ppiausyd/">
+                  <i class="fa fa-instagram"></i>
                 </a>
               </li>
             </ul>
