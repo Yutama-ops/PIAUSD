@@ -10,7 +10,7 @@
       </div>
 
       <div class="container">
-        <div class="row">
+
           <div class="col-lg-12 text-center">
             <section id="aboutUs">
             <h2 class="section-heading text-uppercase">About us</h2>
@@ -31,7 +31,7 @@
 
 
           </div>
-        </div>
+
 
       </div>
     </div>

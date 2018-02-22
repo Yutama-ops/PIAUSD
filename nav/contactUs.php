@@ -18,7 +18,7 @@
           <div class="col-lg-12">
             <form id="contactForm" name="sentMessage" novalidate>
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                   <div class="form-group">
                     <input class="form-control" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
                     <p class="help-block text-danger"></p>
@@ -31,10 +31,17 @@
                     <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">
                     <p class="help-block text-danger"></p>
                   </div>
-                </div>
-                <div class="col-md-6">
                   <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
+                    <select class="form-control" id="subject" type="text" placeholder="Select Subject *" required data-validation-required-message="Please select subject.">
+                      <option value="Membership Join"> Membership join</option>
+                      <option value="Any other enquiry"> Any other enquiry</option>
+                    </select>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="form-group">
+                    <textarea class="form-control conUsSize" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>

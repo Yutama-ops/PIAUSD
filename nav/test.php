@@ -1,5 +1,5 @@
 <!-- Member-->
-<div class="portfolio-modal modal fade" id="membershipModal1" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="testModal1" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -16,9 +16,9 @@
         </div>
         <div class="row text-center">
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            <span class="fa-stack fa-4x center">
+
+                <img src="img/logos/envato.jpg">
             </span>
             <h4 class="service-heading">Allan’s Mechanical Service</h4>
             <p class="text-muted">10% off for car service, Free first car checkup <br>Present PPIA sticker/ Card</p>
@@ -80,7 +80,6 @@ free (coffee (hot/iced), and teas (hot/iced)) <br>PPIA sticker</p>
 
 
 
-
         </div>
       </div>
 
@@ -93,7 +92,14 @@ free (coffee (hot/iced), and teas (hot/iced)) <br>PPIA sticker</p>
           </div>
         </div>
         <div class="row text-center">
-
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Allan’s Mechanical Service</h4>
+            <p class="text-muted">10% off for car service, Free first car checkup <br>Present PPIA sticker/ Card</p>
+          </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -107,10 +113,17 @@ free (coffee (hot/iced), and teas (hot/iced)) <br>PPIA sticker</p>
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Malatang (Wolli creek)</h4>
+            <h4 class="service-heading">Morning Glory Printing</h4>
             <p class="text-muted">10% of discount on your meal <br>PPIA Card and USYD Student ID</p>
           </div>
-
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Passion Tree Cafe (Chatswood)</h4>
+            <p class="text-muted">Free 10 days pass <br>USYD Student ID</p>
+          </div>
 
 
 

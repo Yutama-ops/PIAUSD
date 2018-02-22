@@ -5,6 +5,7 @@
     include './nav/event.php';
     include './nav/member.php';
     include './nav/contactUs.php';
+    include './nav/test.php';
 ?>
 <html lang="en">
 
@@ -57,6 +58,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" data-toggle="modal" href="#contactusModal1">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="modal" href="#testModal1">Test</a>
             </li>
           </ul>
         </div>

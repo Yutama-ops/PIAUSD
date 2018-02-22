@@ -6,7 +6,10 @@
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-
+.center {
+  margin: auto;
+  border-style: dotted;
+}
 p {
   line-height: 1.75; }
 
@@ -28,7 +31,7 @@ h6 {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 section {
-  padding: 100px 0; }
+  /*padding: 100px 0;*/ }
   section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
@@ -43,7 +46,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0; } }
+    /*padding: 150px 0;*/ } }
 
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -447,6 +450,9 @@ section#contact {
   background-position: center; }
   section#contact .section-heading {
     color: #fff; }
+  section#contact .form-size{
+    height: 500px;
+  }
   section#contact .form-group {
     margin-bottom: 25px; }
     section#contact .form-group input,
