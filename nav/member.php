@@ -120,6 +120,37 @@ free (coffee (hot/iced), and teas (hot/iced)) <br>PPIA sticker</p>
       </div>
 
 
+      <div class="container">
+
+          <div class="col-lg-12 text-center">
+            <section id="howToJoin">
+            <h2 class="section-heading text-uppercase">How To join</h2>
+            <h3 class="section-subheading text-muted">How Do I join PPA USYD ?</h3>
+            <h7 class="section-subheading text-muted">To join PPIA USYD, you can contact us with subject “NEW MEMBER” or simply come to any of our events. You can also DM us through Instagram, Facebook, and Email. Please be advised that there will be $10 joining fee.
+
+            </h7> <br/><br/><br/><br/><br/><br/><br/>
+            <h3 class="section-subheading text-muted">How Do I Stay Updated ?
+</h3>
+            <h7 class="section-subheading text-muted">PPIA USYD will be regularly updating our social media: Instagram, Facebook, and this very website. Besides, our very social and marketing team will SKSDin and remind you of all of our events.
+
+            </h7> <br/><br/><br/><br/><br/><br/><br/>
+            <h3 class="section-subheading text-muted">Can I Join PPIA USYD if I am not a USYD student ?
+</h3>
+            <h7 class="section-subheading text-muted">Taylors College? Other College? Other uni ?
+Don’ worry! We welcome everyone, literally anybody as long as you are a student in Australia! We ar
+
+
+            </h7> <br/><br/><br/><br/><br/><br/><br/>
+            <section/>
+
+
+
+          </div>
+
+
+      </div>
+
+
 
 
     </div>
