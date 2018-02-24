@@ -1,3 +1,4 @@
+@media (min-width: 1200px) {
 #container {
   width: 100%;
   height: 60px;
@@ -14,6 +15,7 @@
     left: 70px;
 }
 
+/*CSS for progress bar and paragraphs for weeks*/
 .progress_bar{
   margin-top: 10px;
 }
@@ -21,39 +23,205 @@
   cursor: default;
   width: 100%;
   height: 50px;}
-.progress_bar p{
+
+.weekparagraph{
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:80px;
+}
+.weekfirsthalf{
   display:inline;
-  margin: 0 47px;}
-.button img {
+  margin-top: 20px;
+  margin-left: -22px;
+  margin-right: 42px;}
+.weekfirsthalf > p{
+  color: #383838;
+  font-style: italic;
+  display:inline;
+  padding-right: 45px;}
+.weekbreak > p{
+  color: #383838;
+  font-style: italic;
+  display:inline;}
+.weeksecondhalf {
+  display:inline;
+  margin-left: 93px;
+  margin-right: 33px;}
+.weeksecondhalf > p{
+  color: #383838;
+  font-style: italic;
+  display:inline;
+  padding-right:76px;}
+
+/*CSS for large event buttons*/
+.button > .eventfirsthalf > img{
+  position:relative;
   cursor: pointer;
   width: 30px;
   height: 30px;
-  margin: -86px 60px 0;}
+  margin: -86px 60px 0 10px;}
+.button > .break > img{
+  cursor: pointer;
+  width: 50px;
+  height:50px;
+  margin: -85px 60px 0 37px;}
+.button > .eventsecondhalf > img{
+  position:relative;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  margin: -86px 60px 0 45px;}
 .button img:hover {
   width:50px;
   height:50px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.5);
+  -moz-box-shadow:    0px 0px 30px 0px rgba(0, 255, 0, 0.5);
+  box-shadow:         0px 0px 30px 0px rgba(0, 255, 0, 0.5);
   -webkit-transition: width 0.6s;
   -moz-transition: width 0.6s;
   transition: width 0.6s;}
-.button img:onClick {
-    -webkit-transition: padding-left 0.6s;
-    -moz-transition: padding-left 0.6s;
-    transition: padding-left 0.6s;}
+.button > .break > img:hover{
+  width:70px;
+  height:70px;
+  border-radius: 70px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(255,0,0, 0.6);
+  -moz-box-shadow:    0px 0px 30px 0px rgba(255,0,0, 0.6);
+  box-shadow:         0px 0px 30px 0px rgba(255,0,0, 0.6);
+  -webkit-transition: width 0.2s;
+  -moz-transition: width 0.2s;
+  transition: width 0.2s;}
 
+
+/*CSS for event small button*/
+.button > .subeventfirsthalf > img{
+  cursor: pointer;
+  position:absolute;
+  width: 15px;
+  height:15px;
+  margin: -37px 60px 0 -33px;}
+.button > .subeventsecondhalf > img{
+  cursor: pointer;
+  position:absolute;
+  width: 15px;
+  height:15px;
+  margin: -38px 60px 0 -19px;}
+.button > .subeventfirsthalf > img:hover{
+  width:20px;
+  height:20px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(255,255,0, 0.67);
+  -moz-box-shadow:    0px 0px 30px 0px rgba(255,255,0, 0.67);
+  box-shadow:         0px 0px 30px 0px rgba(255,255,0, 0.67);
+  -webkit-transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  transition: width 0.3s;}
+.button > .subeventsecondhalf > img:hover{
+  width:20px;
+  height:20px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(255,255,0, 0.67);
+  -moz-box-shadow:    0px 0px 30px 0px rgba(255,255,0, 0.67);
+  box-shadow:         0px 0px 30px 0px rgba(255,255,0, 0.67);
+  -webkit-transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  transition: width 0.3s;}
+  /*CSS for text in events page*/
 .events h3{
-  position: relative;
-  display: none;
-  font-size: 16px;
-  font-weight: 900;
-  font-style: italic;
-  margin-top: 50px;
-  padding-left: 15px;
-  text-transform: none;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
+    position: relative;
+    text-align: left;
+    display: none;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: italic;
+    margin-top: 50px;
+    padding-left: 15px;
+    text-transform: none;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+.events h4{
+      position: relative;
+      text-align: left;
+      display: none;
+      font-size: 14px;
+      font-weight: 900;
+      font-style: italic;
+      padding-left: 15px;
+      text-transform: none;
+      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color:#383838;
+    }
 .events p{
-  margin-top: 30px;
-  padding-left: 15px;
-  position: relative;
-  display: none;
-}
+    margin-top: 30px;
+    padding-left: 15px;
+    text-align: left;
+    position: relative;
+    display: none;}}
+
+@media (max-width: 1200px) {
+  #container {
+    display:none;
+  }
+  #animate{
+      display:none;
+  }
+
+  /*CSS for progress bar and paragraphs for weeks*/
+  .progress_bar{
+    display:none;}
+  .progress_bar img{
+    display:none;}
+  .weekparagraph{
+    display:none;}
+  .weekfirsthalf{
+    display:none;}
+  .weekfirsthalf > p{
+    display:none;}
+  .weekbreak > p{
+    display:none;}
+  .weeksecondhalf {
+    display:none;}
+  .weeksecondhalf > p{
+    display:none;}
+
+  /*CSS for large event buttons*/
+  .button > .eventfirsthalf > img{
+    display:none;}
+  .button > .break > img{
+    display:none;}
+  .button > .eventsecondhalf > img{
+    display:none;}
+
+
+  /*CSS for event small button*/
+  .button > .subeventfirsthalf > img{
+    display:none;}
+  .button > .subeventsecondhalf > img{
+    display:none;}
+  .events h3{
+        position: relative;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 900;
+        font-style: italic;
+        margin-top: 50px;
+        padding-left: 15px;
+        text-transform: none;
+        font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      }
+  .events h4{
+          position: relative;
+          text-align: left;
+          font-size: 14px;
+          font-weight: 900;
+          font-style: italic;
+          padding-left: 15px;
+          text-transform: none;
+          font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+          color:#383838;
+        }
+  .events p{
+        margin-top: 30px;
+        padding-left: 15px;
+        text-align: left;
+        position: relative;}
