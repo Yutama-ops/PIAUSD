@@ -87,6 +87,8 @@ Stay Calm and Worry not if you cannot attend the O week! You can still sign up a
 
 Stay Tuned for our Facebook Group for our upcoming events !<br><br>
           </p>
+        <img class="event_1_pics" style="display:inline;" src="img/events/O_week_2018.png">
+        <img class="event_1_pics" style="display:inline;" src="img/events/O_week_2018_2.png">
         <!--Content of event 1-->
         <h3 id="event_2">Ngerumpi x Lost in USyd</h3>
         <h4 id="event_2_date">9-10 March 2018</h4>

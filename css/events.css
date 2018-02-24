@@ -151,6 +151,11 @@
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       color:#383838;
     }
+.events img{
+    display:none;
+    width:500px;
+    height:500px;
+    margin-right:50px;}
 .events p{
     margin-top: 30px;
     padding-left: 15px;
@@ -198,6 +203,7 @@
     display:none;}
   .button > .subeventsecondhalf > img{
     display:none;}
+
   .events h3{
         position: relative;
         text-align: left;
@@ -220,8 +226,11 @@
           font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
           color:#383838;
         }
+  .events img{
+        width:300px;
+        height:300px;}
   .events p{
         margin-top: 30px;
         padding-left: 15px;
         text-align: left;
-        position: relative;}
+        position: relative;}}

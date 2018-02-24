@@ -11,6 +11,7 @@ function show_event_decription(id){
   //If the selected ID is visible and it's the only one visible, fade the ID out
     if ($selected_ID.is(":not(':hidden')") & event_count == 1) {
         $selected_ID.fadeOut();
+        $('.event_' + id + "_pics").fadeOut("slow");
         $('#event_' + id + "_date").fadeOut("slow");
         $('#event_' + id + "_desc").fadeOut("slow");
     }
@@ -19,6 +20,7 @@ function show_event_decription(id){
       for(b = 1; b<=total_events; b++){
         $('#event_' + b).fadeOut();
         $('#event_' + b + "_date").fadeOut("slow");
+        $('.event_' + b + "_pics").fadeOut("slow");
         $('#event_' + b + "_desc").fadeOut("slow");
       }
     }
@@ -26,17 +28,20 @@ function show_event_decription(id){
       if ($selected_ID.is(':hidden') & event_count == 0) {
           $selected_ID.fadeIn();
           $('#event_' + id + "_date").fadeIn("slow");
+          $('.event_' + id + "_pics").fadeIn("slow");
           $('#event_' + id + "_desc").fadeIn("slow");
       }
   //If the selected ID is hidden and there are other events visible, fade the ID in, fade the other ID out
       if ($selected_ID.is(':hidden') & event_count > 0) {
           $selected_ID.fadeIn();
           $('#event_' + id + "_date").fadeIn("slow");
+          $('.event_' + id + "_pics").fadeIn("slow");
           $('#event_' + id + "_desc").fadeIn("slow");
           for(c = 1; c<=total_events; c++){
             if(c != id){
               $('#event_' + c).fadeOut();
               $('#event_' + c + "_date").fadeOut("slow");
+              $('.event_' + c + "_pics").fadeOut("slow");
               $('#event_' + c + "_desc").fadeOut("slow");
             }
           }
