@@ -19,19 +19,20 @@
 
         <div class = "weekparagraph">
           <span class="weekfirsthalf">
-            <p id="event_no_0">O-week</p>
-            <p id="event_no_1">week 1</p>
-            <p id="event_no_2">week 2</p>
-            <p id="event_no_4">week 4</p>
+            <p id="event_no_1">O-week</p>
+            <p id="event_no_2">week 1</p>
+            <p id="event_no_3">week 2</p>
+            <p id="event_no_5">week 4</p>
           </span>
           <span class="weekbreak">
-            <p id="event_no_5">BREAK!</p>
+            <p id="event_no_6">BREAK!</p>
           </span>
           <span class="weeksecondhalf">
-            <p id="event_no_7">week 6</p>
-            <p id="event_no_9">week 8</p>
-            <p id="event_no_11">week 10</p>
-            <p id="event_no_13">week 12</p>
+            <p id="event_no_8">week 6</p>
+            <p id="event_no_10">week 8</p>
+            <p id="event_no_12">week 10</p>
+            <p id="event_no_14">week 12</p>
+            <p id="event_no_15">week 13</p>
           </span>
         </div>
 
@@ -39,27 +40,28 @@
           <img src="img/events/progress.png">
         </div>
           <div class="button">
-            <span class="eventfirsthalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="0" src="img/events/event_weeks_button.png"></span>
             <span class="eventfirsthalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="1" src="img/events/event_weeks_button.png"></span>
             <span class="eventfirsthalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="2" src="img/events/event_weeks_button.png"></span>
-            <span class="subeventfirsthalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="3" src="img/events/event_subweeks_button.png"></span>
-            <span class="eventfirsthalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="4" src="img/events/event_weeks_button.png"></span>
-            <span class="break"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="5" src="img/events/event_break_button.png"></span>
-            <span class="subeventsecondhalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="6" src="img/events/event_subweeks_button.png"></span>
-            <span class="eventsecondhalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="7" src="img/events/event_weeks_button.png"></span>
-            <span class="subeventsecondhalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="8" src="img/events/event_subweeks_button.png"></span>
-            <span class="eventsecondhalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="9" src="img/events/event_weeks_button.png"></span>
-            <span class="subeventsecondhalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="10" src="img/events/event_subweeks_button.png"></span>
-            <span class="eventsecondhalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="11" src="img/events/event_weeks_button.png"></span>
-            <span class="subeventsecondhalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="12" src="img/events/event_subweeks_button.png"></span>
-            <span class="eventsecondhalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="13" src="img/events/event_weeks_button.png"></span>
+            <span class="eventfirsthalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="3" src="img/events/event_weeks_button.png"></span>
+            <span class="subeventfirsthalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="4" src="img/events/event_subweeks_button.png"></span>
+            <span class="eventfirsthalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="5" src="img/events/event_weeks_button.png"></span>
+            <span class="break"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="6" src="img/events/event_break_button.png"></span>
+            <span class="subeventsecondhalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="7" src="img/events/event_subweeks_button.png"></span>
+            <span class="eventsecondhalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="8" src="img/events/event_weeks_button.png"></span>
+            <span class="subeventsecondhalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="9" src="img/events/event_subweeks_button.png"></span>
+            <span class="eventsecondhalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="10" src="img/events/event_weeks_button.png"></span>
+            <span class="subeventsecondhalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="11" src="img/events/event_subweeks_button.png"></span>
+            <span class="eventsecondhalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="12" src="img/events/event_weeks_button.png"></span>
+            <span class="subeventsecondhalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="13" src="img/events/event_subweeks_button.png"></span>
+            <span class="eventsecondhalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="14" src="img/events/event_weeks_button.png"></span>
+            <span class="eventsecondhalf"><img onClick="show_event_decription(this.id);moveCar(this.id);" id="15" src="img/events/event_weeks_button.png"></span>
           </div>
 
         <div class="events">
           <!--Content of event 0-->
-          <h3 id="event_0" style="display:block;">O - Week</h3>
-          <h4 id="event_0_date" style="display:block;">26 February - 2 March</h4>
-          <p id="event_0_desc" style="display:block;">
+          <h3 id="event_1" style="display:block;">O - Week</h3>
+          <h4 id="event_1_date" style="display:block;">26 February - 2 March</h4>
+          <p id="event_1_desc" style="display:block;">
             Hey Guys!<br><br>
 Are you excited for Semester 1 2018 ? We ARE !<br><br>
 
@@ -86,9 +88,9 @@ Stay Calm and Worry not if you cannot attend the O week! You can still sign up a
 Stay Tuned for our Facebook Group for our upcoming events !<br><br>
           </p>
         <!--Content of event 1-->
-        <h3 id="event_1">Ngerumpi x Lost in USyd</h3>
-        <h4 id="event_1_date">9-10 March 2018</h4>
-        <p id="event_1_desc">
+        <h3 id="event_2">Ngerumpi x Lost in USyd</h3>
+        <h4 id="event_2_date">9-10 March 2018</h4>
+        <p id="event_2_desc">
           Hey guys! How&#39;s everyone doing?<br><br>
 
           Congrats on surviving first week of Uni, We know it&#39;s been one heck of a week!<br><br>
@@ -107,9 +109,9 @@ Stay Tuned for our Facebook Group for our upcoming events !<br><br>
           Look forward to seeing all the newcomers and seniors this semester, I hope you guys are as thrilled as we are. See you guys there and Let&#39;s have some fun together!
         </p>
         <!--Content of event 2-->
-        <h3 id="event_2">Beach BBQ</h3>
-        <h4 id="event_2_date">17 March 2018</h4>
-        <p id="event_2_desc">
+        <h3 id="event_3">Beach BBQ</h3>
+        <h4 id="event_3_date">17 March 2018</h4>
+        <p id="event_3_desc">
           Hey Guys! Hope ya&#39;ll had a great first week in uni. But get ready for our first ever get together of the year and we&#39;ll make sure we do it right.<br><br>
 
 It&#39;s summer here in the down under and what could be more perfect than a chill day out enjoying some BBQ and cracking a cold one with your friends overlooking the scenic beaches of Sydney?<br><br>
@@ -123,9 +125,9 @@ Meeting Point: TBA
 Date and Time: 17th March 2018 12.00 PM
         </p>
         <!--conectiontent of event 3-->
-        <h3 id="event_3">Badminton</h3>
-        <h4 id="event_3_date">TBC</h4>
-        <p id="event_3_desc">
+        <h3 id="event_4">Badminton</h3>
+        <h4 id="event_4_date">TBC</h4>
+        <p id="event_4_desc">
           Three weeks into uni and already buried under the countless lecture slides that takes up all your time to socialise and workout?<br><br>
 
 RISE AND SHINE!! It&#39;s time for you to wake up and forget all of your burden. Get ready to kill two birds with one stone! Make friends and stay fit with us every alternate Saturday through our fortnightly sports event.<br><br>
@@ -137,21 +139,21 @@ Can&#39;t wait to see you guys there! Bring your friends, your families, your ne
 PS: Do bring your own racquets OR contact us if you don&#39;t have one!<br><br>
         </p>
         <!--Content of event 4-->
-        <h3 id="event_4">AFF</h3>
-        <h4 id="event_4_date">29 March 2018</h4>
-        <p id="event_4_desc">Asian Food Festival</p>
+        <h3 id="event_5">AFF</h3>
+        <h4 id="event_5_date">29 March 2018</h4>
+        <p id="event_5_desc">Asian Food Festival</p>
         <!--Content of event 5-->
-        <h3 id="event_5">CAMP</h3>
-        <h4 id="event_5_date">Semester break</h4>
-        <p id="event_5_desc">Description of event 5</p>
+        <h3 id="event_6">CAMP</h3>
+        <h4 id="event_6_date">Semester break</h4>
+        <p id="event_6_desc">Description of event 5</p>
         <!--Content of event 6-->
-        <h3 id="event_6">Sport</h3>
-        <h4 id="event_6_date">TBC</h4>
-        <p id="event_6_desc">Description of event 6</p>
+        <h3 id="event_7">Sport</h3>
+        <h4 id="event_7_date">TBC</h4>
+        <p id="event_7_desc">Description of event 6</p>
         <!--Content of event 7-->
-        <h3 id="event_7">MOCA & Circular Quay Trip</h3>
-        <h4 id="event_7_date">21 April 2018</h4>
-        <p id="event_7_desc">
+        <h3 id="event_8">MOCA & Circular Quay Trip</h3>
+        <h4 id="event_8_date">21 April 2018</h4>
+        <p id="event_8_desc">
           Jalan-jalan with PPIA: MOCA & Circular Quay<br><br>
 
           It&#39;s already half a semester in uni and I&#39;m guessing ya&#39;ll had a fair share of fisher library now and then, cause we know we do.<br><br>
@@ -166,13 +168,13 @@ PS: Do bring your own racquets OR contact us if you don&#39;t have one!<br><br>
           Date: 21st April 2018 12.00 PM
         </p>
         <!--Content of event 8-->
-        <h3 id="event_8">Sport (TBC)</h3>
-        <h4 id="event_8_date">TBC</h4>
-        <p id="event_8_desc">Description of event 8</p>
+        <h3 id="event_9">Sport (TBC)</h3>
+        <h4 id="event_9_date">TBC</h4>
+        <p id="event_9_desc">Description of event 8</p>
         <!--Content of event 9-->
-        <h3 id="event_9">Paintball</h3>
-        <h4 id="event_9_date">5 May 2018</h4>
-        <p id="event_9_desc">
+        <h3 id="event_10">Paintball</h3>
+        <h4 id="event_10_date">5 May 2018</h4>
+        <p id="event_10_desc">
           Call of Duty/ Battlefield/ Paintball Battle/ Counter Offensive<br><br>
 
           Prepare your tactical skills guys and girls because we&#39;re going into battle! Invite your friends and team up and be ready to face off your enemies.<br><br>
@@ -180,13 +182,13 @@ PS: Do bring your own racquets OR contact us if you don&#39;t have one!<br><br>
           It&#39;s going to be a thrilling<br><br>
         </p>
         <!--Content of event 10-->
-        <h3 id="event_10">Sport</h3>
-        <h4 id="event_10_date">TBC</h4>
-        <p id="event_10_desc">Description of event 10</p>
+        <h3 id="event_11">Sport</h3>
+        <h4 id="event_11_date">TBC</h4>
+        <p id="event_11_desc">Description of event 10</p>
         <!--Content of event 11-->
-        <h3 id="event_11">Game Night</h3>
-        <h4 id="event_11_date">18 May 2018</h4>
-        <p id="event_11_desc">
+        <h3 id="event_12">Game Night</h3>
+        <h4 id="event_12_date">18 May 2018</h4>
+        <p id="event_12_desc">
           GAME NIGHT<br><br>
 
           Up for some Pizza, FIFA and good ol&#39; board games?
@@ -202,13 +204,13 @@ PS: Do bring your own racquets OR contact us if you don&#39;t have one!<br><br>
           Date: 18th May 2018  6.00 PM
         </p>
         <!--Content of event 12-->
-        <h3 id="event_12">Sport</h3>
-        <h4 id="event_12_date">TBC</h4>
-        <p id="event_12_desc">Description of event 12</p>
-        <!--Content of event 12-->
-        <h3 id="event_13">End of Semester Dinner</h3>
-        <h4 id="event_13_date">2 June 2018</h4>
-        <p id="event_13_desc">
+        <h3 id="event_13">Sport</h3>
+        <h4 id="event_13_date">TBC</h4>
+        <p id="event_13_desc">Description of event 12</p>
+        <!--Content of event 13-->
+        <h3 id="event_14">End of Semester Dinner</h3>
+        <h4 id="event_14_date">2 June 2018</h4>
+        <p id="event_14_desc">
           Drink Dine Bowl<br><br>
 
           Let&#39;s end this semester with our last (but not least) get together .
@@ -218,6 +220,18 @@ PS: Do bring your own racquets OR contact us if you don&#39;t have one!<br><br>
 
           Meeting Point: TBA
           Date: 2nd June 2018 6.00 PM
+        </p>
+        <!--Content of event 14-->
+        <h3 id="event_15">STUVAC</h3>
+        <h4 id="event_15_date">PPIA prioritas</h4>
+        <p id="event_15_desc">
+          So 13 weeks of study finally ended and you have no more classes, time to relax? Not really, exams are coming up!!<br><br>
+
+Have you ever been to Fisher or Law Library to study but didn&#39;t get a table or computer because it&#39;s full? Surely you know how hard it is to find a seat in the library, especially during exam periods. <br><br>
+
+Luckily for you, we have a program called PPIA: Prioritas! This program intends to help PPIA USYD members get a seat in the library to help them study better. We will be using the PPIA USYD facebook group as a platform for this program, where there will be a poll everyday for members to reserve seats in the library. <br><br>
+
+Don&#39;t miss this opportunity, let us help you study better for your exams!!
         </p>
       </div>
       </div>

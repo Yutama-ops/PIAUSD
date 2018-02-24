@@ -12,7 +12,7 @@
     background:transparent;
     position:absolute;
     top: 20px;
-    left: 70px;
+    left: 15px;
 }
 
 /*CSS for progress bar and paragraphs for weeks*/
@@ -32,8 +32,8 @@
 .weekfirsthalf{
   display:inline;
   margin-top: 20px;
-  margin-left: -22px;
-  margin-right: 42px;}
+  margin-left: -266px;
+  margin-right: 44px;}
 .weekfirsthalf > p{
   color: #383838;
   font-style: italic;
@@ -45,13 +45,13 @@
   display:inline;}
 .weeksecondhalf {
   display:inline;
-  margin-left: 93px;
-  margin-right: 33px;}
+  margin-left: 17px;
+  margin-right: -140px;}
 .weeksecondhalf > p{
   color: #383838;
   font-style: italic;
   display:inline;
-  padding-right:76px;}
+  padding-left:71px;}
 
 /*CSS for large event buttons*/
 .button > .eventfirsthalf > img{
@@ -70,7 +70,7 @@
   cursor: pointer;
   width: 30px;
   height: 30px;
-  margin: -86px 60px 0 45px;}
+  margin: -86px 55px 0 45px;}
 .button img:hover {
   width:50px;
   height:50px;

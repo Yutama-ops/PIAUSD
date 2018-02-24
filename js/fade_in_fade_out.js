@@ -1,8 +1,8 @@
 function show_event_decription(id){
   var $selected_ID = $('#event_' + id);
   var event_count = 0;
-  var total_events = 13;
-  for(a = 0; a<=total_events; a++){
+  var total_events = 15;
+  for(a = 1; a<=total_events; a++){
     if ($('#event_' + a).is(":not(':hidden')")) {
       //if there is at least one ID visible
       event_count += 1;
@@ -16,7 +16,7 @@ function show_event_decription(id){
     }
   //If the selected ID is visible and it's not the only one visible, fade all of them out
     if ($selected_ID.is(":not(':hidden')") & event_count > 1){
-      for(b = 0; b<=total_events; b++){
+      for(b = 1; b<=total_events; b++){
         $('#event_' + b).fadeOut();
         $('#event_' + b + "_date").fadeOut("slow");
         $('#event_' + b + "_desc").fadeOut("slow");
@@ -33,7 +33,7 @@ function show_event_decription(id){
           $selected_ID.fadeIn();
           $('#event_' + id + "_date").fadeIn("slow");
           $('#event_' + id + "_desc").fadeIn("slow");
-          for(c = 0; c<=total_events; c++){
+          for(c = 1; c<=total_events; c++){
             if(c != id){
               $('#event_' + c).fadeOut();
               $('#event_' + c + "_date").fadeOut("slow");
@@ -53,6 +53,10 @@ function moveCar(id){
   var p = $( '#event_no_' + id );
   var pos = p.position();
   var clickedposleft= pos.left - 35;
+  <!--the paragraph has been set to have left padding of 71 px after reaching width of 472 px. Hence, need to fix the new paragraph position-->
+  if(clickedposleft > 472){
+    clickedposleft += 71;
+  }
   console.log( "clickedposleft: " + clickedposleft);
 
   var elem = document.getElementById("animate");
